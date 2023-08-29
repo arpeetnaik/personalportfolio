@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Arpeet Naik Portfolio Website</title>
+        <link rel = "stylesheet"
+        href = "http://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel = "stylesheet"
+        href = "http://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" 
+        crossorigin = "anonymous"/>
+
+        
+        <!--Update these to change fonts-->
+        <link href = "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+        +Pro:300,900&display=swap" rel = "stylesheet">
+
+        <link rel = "stylesheet" href = "css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class = "logo">
+                <img src = "img/tigerpaw.jpg" alt = "">
+            </div>
+            <button class = "nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item"><a href = "#home" class = "nav__link">Home</a></li>
+                    <li class = "nav__item"><a href = "#services" class = "nav__link">My Services</a></li>
+                    <li class = "nav__item"><a href = "#about" class = "nav__link">About me</a></li>
+                    <li class = "nav__item"><a href = "#work" class = "nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Introduction -->
+        <section class = "intro" id = "home">
+            <h1 class = "section__title section__title--intro">
+                Hi, I am <strong>Arpeet Naik</strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">clemson comp-sci</p>
+            <img src = "img/profilepic2.jpg" alt = "a picture of Arpeet in a suit outside" class = "intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class = "my-services" id = "services">
+            <h2 class = "section__title section__title--services">What I Do</h2>
+            <div class = "services">
+                <div class = "services">
+                    <h3>Software Development</h3>
+                    <p>Throughout my college career, I have spent countless hours working 
+                        through software development projects and have grown the ability to work in 
+                        a team setting to collaborate with others. This website alone is all self-taught.</p>
+                </div> <!-- / service -->
+
+                <div class = "services">
+                    <h3>IT Services</h3>
+                    <p>Many of my semesters and summers have been spent working with IT Consultants 
+                        and on campus faculty to troubleshoot many hardware/software issues. 
+                        Many of these issues require deductive reasoning and diagnostic skills 
+                        on operating systems like Windows and MacOS.</p>
+                </div> <!-- / service -->
+
+                <div class = "services">
+                    <h3>Internship Experience</h3>
+                    <p>If you view my LinkedIn, which is linked at the bottom of this portfolio, 
+                        I have interned at big companies like BlueCross BlueShield of SC and small 
+                        on-campus internships to grow my skills as I progressed through my bachelors.</p>
+
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class = "btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class = "about-me" id = "about">
+            <h2 class = "section__title section__title--about">Who I am</h2>
+            <p class = "section__subtitle section__subtitle--about">future developer or analyst</p>
+
+            <div class = "about--me__body">
+                <p>Highly motivated and driven student with experience in a variety of programming
+                    languages and environments. Passionate about growing my skills and educating 
+                    technology users and innovators.
+                    </p>
+
+                <p>In my freetime, I enjoy playing/watching sports, playing video games, and working out.
+                    I am also a big car fanatic with my dream car being an Aston Martin Vantage.</p>
+            </div>
+
+            <img src = "img/profilepic3.jpg" alt = "Arpeet on a staircase" class = "about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class = "my-work" id = "work">
+            <h2 class = "section__title">My Work</h2>
+            <div class = "projects">
+                <div class = "projects">
+                    <h3>Connect X (Java)</h3>
+                    <p>Designed an extended version of Connect 4 that runs on
+                        a command-line interface. The grid was also made using
+                        a GUI and was formatted to allow for 2-25 players. </p>
+                </div> <!-- / projects -->
+
+                <div class = "projects">
+                    <h3>PPM Image Manipulation (C/C++)</h3>
+                    <p>Created a program that manipulates 1 image in 3 variations.
+                        Manipulation included graying, flipping, and green screening
+                        the image. Using the singular pixels, the images are manipulated
+                        based on the functions called to act on the ppm file.</p>
+                </div> <!-- / projects -->
+            </div> <!-- / projects -->
+        </section>
+
+        <!--Footer--> 
+        <footer class = "footer">
+            <a href = "mailto:arpeetnaik@gmail.com" class = "footer__link">arpeetnaik@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = "https://linkedin.com/in/arpeet-naik">
+                        Linkedin
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = "http://github.com/arpeetn">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src = "js/index.js"></script>
+    </body>
+</html>
